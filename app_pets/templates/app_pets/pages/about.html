@@ -1,0 +1,20 @@
+{% extends "app_pets/base.html" %}
+{% block title %}About - Find My Pets{% endblock title %}
+
+{% block content %}
+{% include 'app_pets/partials/header.html' %}
+
+<div class="container mt-5">
+    <h1>About Find My Pets</h1>
+    <p>Find My Pets is dedicated to helping lost pets reunite with their owners. Our platform allows users to report lost and found pets, share information, and connect with a community of pet lovers.</p>
+    <h1>Our Mission</h1>
+    <p>Our mission is to create a safe and supportive environment for pet owners and animal lovers to come together and help each other in times of need.</p>
+    <h1>Contact Us</h1>
+    <p>If you have any questions or would like to get involved, please reach out to us at</p>
+</div>
+
+{% endblock content %}
+
+{% block footer %}
+    {% include 'app_pets/partials/footer.html' %}
+{% endblock footer %}
